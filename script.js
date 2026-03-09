@@ -49,7 +49,7 @@ function createFooter() {
   footer.innerHTML = `
     <div class="container footer-wrap">
       <p>© 2026 Ajou Medical AI Laboratory. All rights reserved.</p>
-      <p>Email: contact@oralcancer-ai.com</p>
+      <p>Email: nahero@ajou.ac.kr</p>
     </div>
   `;
 }
@@ -57,4 +57,5 @@ function createFooter() {
 document.addEventListener("DOMContentLoaded", () => {
   createHeader();
   createFooter();
+
 });
